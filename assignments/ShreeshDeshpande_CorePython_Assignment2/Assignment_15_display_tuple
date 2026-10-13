@@ -1,0 +1,5 @@
+#tuple is immutable and does not have a append function
+
+n = input("Enter 5 numbers")
+tup = tuple(map(int, n.split()))
+print(tuple)

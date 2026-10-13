@@ -1,0 +1,6 @@
+# convert tuple to list and display both
+
+tup=(10,20,30,40,50)
+print(f"tuple; {tup}")
+num=list(tup)
+print(f"list: {num} ")

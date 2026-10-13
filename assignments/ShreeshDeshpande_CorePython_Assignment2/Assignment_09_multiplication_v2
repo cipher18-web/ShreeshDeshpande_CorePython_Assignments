@@ -1,0 +1,7 @@
+#using while loop to create a multiplication table
+
+n=int(input("enter number :"))
+i=0
+while i<10:
+    i+=1
+    print(f"{n}x{i}={n*i}")

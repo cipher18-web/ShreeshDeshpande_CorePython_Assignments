@@ -1,0 +1,8 @@
+#check if number occurs twice
+
+tup=(10,20,30,20,40,50)
+n = int(input("Enter numbers: "))
+
+o = tup.count(n)
+print(f"{n} appears {o} times")
+

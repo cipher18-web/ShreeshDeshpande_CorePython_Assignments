@@ -1,0 +1,7 @@
+#adding data in lists
+
+list=[]
+for _ in range(5):
+    n=int(input("enter a number: "))
+    list.append(n)
+print(sum(list))

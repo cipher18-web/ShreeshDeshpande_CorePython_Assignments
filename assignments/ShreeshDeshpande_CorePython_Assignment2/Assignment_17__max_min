@@ -1,0 +1,6 @@
+# find maximum and minimum number in a tuple
+
+n = input("Enter 5 numbers")
+tup = tuple(map(int, n.split()))
+print(f"maximum = {max(tup)}")
+print(f"minimum = {min(tup)}")

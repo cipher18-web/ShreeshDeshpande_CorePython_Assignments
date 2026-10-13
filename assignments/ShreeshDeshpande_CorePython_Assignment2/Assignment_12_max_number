@@ -1,0 +1,8 @@
+#finding the largest number in a list
+
+list=[]
+for _ in range(5):
+    n=int(input("enter a numbers: "))
+    list.append(n)
+print(max(list))
+

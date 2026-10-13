@@ -1,0 +1,12 @@
+#searching for an element in list
+
+list=[]
+for _ in range(5):
+    n=int(input("enter a number: "))
+    list.append(n)
+s=int(input("enter number you want to search: "))
+try:
+    x=list.index(s)
+    print(f"{s} is present in the list")
+except:
+    print(f"{s} is not present in the list")

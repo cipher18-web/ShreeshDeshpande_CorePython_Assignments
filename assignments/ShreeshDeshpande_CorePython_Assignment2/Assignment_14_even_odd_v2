@@ -1,0 +1,13 @@
+#count even and odd numbers in a list
+
+list=[];e=0;o=0
+n=input("enter numbers: ").split()
+for i in n:
+    list.append(int(i))   
+for num in list:
+    if num % 2 == 0:
+     e += 1
+    else:
+        o += 1
+print(f"Odd Numbers: {o}")
+print(f"Even Numbers: {e}")

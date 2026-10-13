@@ -1,0 +1,8 @@
+#using while loop to count no. of digits entered
+
+n=int(input("enter N: "))
+c=0
+while n>0:
+    n//=10
+    c+=1
+print( c)
